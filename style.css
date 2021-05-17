@@ -1,0 +1,65 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: HansKendrick;    
+    text-decoration: none;
+}
+.all-content {
+    background-color: #e2e7ec;
+    min-height: 100vh;
+    text-align: center;    
+}
+.top {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    width: 70%;   
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.big-banner {
+    max-height: 520px;
+    padding: 400px 260px 40px 40px;
+    background-image: url(./images/Layer88.png);
+    background-size: cover;
+    flex: 0 1 65%;
+    color: white;
+    box-shadow: inset 1px -200px 200px 0px #190a07;
+}
+.banner {
+    background-image: url(./images/Layer88.png);
+    height: 260px;
+    background-size: cover;
+}
+.aside-description {
+    background-color: #ffffff;
+    height: 260px;    
+    text-align: left;
+    padding-left: 5%;
+}
+
+.small-banner {
+    flex: 0 1 32%;
+}
+.post {
+    margin: 0 5px 10px 5px;
+}
+.main-description {
+    text-align: left;
+}
+.data {
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+.logo {
+    position: relative;
+    top: 100px;
+}
+.foo {
+    margin: 8% auto;
+}
+@font-face {
+    font-family: HansKendrick;
+    src: url(./ttf/HansKendrick-Regular.otf);
+}
